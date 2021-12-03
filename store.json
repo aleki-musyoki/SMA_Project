@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2020-01",
+    "revenue": "5482134",
+    "inventory": "433520",
+    "purchases": "557493"
+  },
+  {
+    "date": "2020-02",
+    "revenue": "5172536",
+    "inventory": "474920",
+    "purchases": "452538"
+  },
+  {
+    "date": "2020-03",
+    "revenue": "6123734",
+    "inventory": "452580",
+    "purchases": "625853"
+  },
+  {
+    "date": "2020-04",
+    "revenue": "3132634",
+    "inventory": "302690",
+    "purchases": "272553"
+  },
+  {
+    "date": "2020-05",
+    "revenue": "7135384",
+    "inventory": "538360",
+    "purchases": "654953"
+  },
+  {
+    "date": "2020-06",
+    "revenue": "4726434",
+    "inventory": "473580",
+    "purchases": "454693"
+  },
+  {
+    "date": "2020-07",
+    "revenue": "3136394",
+    "inventory": "363580",
+    "purchases": "452483"
+  },
+  {
+    "date": "2020-08",
+    "revenue": "2133684",
+    "inventory": "270257",
+    "purchases": "152573"
+  },
+  {
+    "date": "2020-09",
+    "revenue": "3125334",
+    "inventory": "392585",
+    "purchases": "153148"
+  },
+  {
+    "date": "2020-10",
+    "revenue": "3425934",
+    "inventory": "382580",
+    "purchases": "353158"
+  },
+  {
+    "date": "2020-11",
+    "revenue": "8325834",
+    "inventory": "169460",
+    "purchases": "712583"
+  },
+  {
+    "date": "2020-12",
+    "revenue": "3155134",
+    "inventory": "433500",
+    "purchases": "531653"
+  },
+  {
+    "date": "2021-01",
+    "revenue": "5125834",
+    "inventory": "432680",
+    "purchases": "559263"
+  },
+  {
+    "date": "2021-02",
+    "revenue": "5368176",
+    "inventory": "429360",
+    "purchases": "473953"
+  },
+  {
+    "date": "2021-03",
+    "revenue": "6739134",
+    "inventory": "457390",
+    "purchases": "672953"
+  },
+  {
+    "date": "2021-04",
+    "revenue": "3136934",
+    "inventory": "307260",
+    "purchases": "252853"
+  },
+  {
+    "date": "2021-05",
+    "revenue": "7126934",
+    "inventory": "538260",
+    "purchases": "657943"
+  },
+  {
+    "date": "2021-06",
+    "revenue": "4702734",
+    "inventory": "472840",
+    "purchases": "456393"
+  },
+  {
+    "date": "2021-07",
+    "revenue": "3624134",
+    "inventory": "362570",
+    "purchases": "458263"
+  },
+  {
+    "date": "2021-08",
+    "revenue": "2125334",
+    "inventory": "272570",
+    "purchases": "159273"
+  },
+  {
+    "date": "2021-09",
+    "revenue": "3152734",
+    "inventory": "395927",
+    "purchases": "156283"
+  },
+  {
+    "date": "2021-10",
+    "revenue": "3425734",
+    "inventory": "380836",
+    "purchases": "358253"
+  },
+  {
+    "date": "2021-11",
+    "revenue": "8324634",
+    "inventory": "162590",
+    "purchases": "71300"
+  },
+  {
+    "date": "2021-12",
+    "revenue": "3155134",
+    "inventory": "435700",
+    "purchases": "531753"
+  },
+  {
+    "date": "2022-01",
+    "revenue": "4645651",
+    "inventory": "654212",
+    "purchases": "554165"
+  },
+  {
+    "date": "2039-06",
+    "revenue": "14141",
+    "inventory": "31434",
+    "purchases": "1123"
+  },
+  {
+    "date": "2021-02",
+    "revenue": "21323",
+    "inventory": "15341",
+    "purchases": "13431"
+  },
+  {
+    "date": "2021-12",
+    "revenue": "5400000",
+    "inventory": "2300000",
+    "purchases": "1400000"
+  }
+]

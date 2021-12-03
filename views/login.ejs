@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Login</title>
+</head>
+<body>
+ <!--
+    <div class="bg">
+        <img src="bg.jpg">
+    </div>
+ -->   
+    <div class="container">
+        <h1>Log In</h1>
+        <form action ="/login" method="POST">
+            <div >
+                <input class="tfield" type="email" id="email" name="email" placeholder="Email" required> <br><br>
+            </div>
+            <div >
+                <input class="tfield" type="password" id="password" name="password" placeholder="Password" required><br><br>
+            </div>
+            <button class="btn" type="submit">SIGN IN</button><br><br><br>
+            
+            <label class="remcheck"> <input type="checkbox" checked="checked">Remember Me </label>
+            <label class="forgot"><a href="#">Forgot Password?</a></label><br><br>
+            <label class="member">Don't have an Account? <a href="/register"> REGISTER </a></label>
+        </form>
+    </div>
+</body>
+</html>

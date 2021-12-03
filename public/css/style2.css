@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/*img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+    
+}*/
+
+body{
+    background-image: url(bgnew.jpg), linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.73));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+    position: absolute;
+    width: 50vw;
+    height: 25vw;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+    color: white   ;
+}
+
+form{
+    margin-top: 3%;
+    margin-left: 26%;
+    border-radius: 1px solid black;
+}
+
+.tfield{
+    background: transparent;
+    border: none;
+    width: 58%;
+    height: 50px;
+    color: white !important;
+    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.3em;
+}
+
+.btn{
+    border-radius: 25px;
+    padding: 3%;
+    width: 64%;
+    background-color: rgba(252, 204, 204, 0.952);
+    color:black;
+    border: 0;
+    font-size: 0.8em;
+}
+
+.remcheck{
+    color: rgb(255, 200, 190);
+    margin-left: 4%;
+}
+
+.forgot{
+    color: white;
+    margin-left: 9%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.tfield:hover, .tfield:focus {
+    background: transparent;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.4); 
+}
+
+.tfield:focus {
+    border-color: rgba(255, 255, 255, 0.4); 
+}
+
+.member{
+    color: white;
+    margin-left: 4%;
+}

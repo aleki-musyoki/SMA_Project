@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project 2 | Menu Panel </title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="js/home.js">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-ghost icon'></i>
+        <div class="logo_name">Group 8</div>
+        <i class='bx bx-menu' id="btn" style="margin-left: -2%;" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+         <span class="tooltip">Dashboard</span>
+      </li>
+     <li>
+       <a href="/home">
+         <i class='bx bx-line-chart' ></i>
+         <span class="links_name">Analytics</span>
+       </a>
+       <span class="tooltip">Analytics</span>
+     </li>
+     <li>
+         <a href="/login">
+            <i class='bx bx-log-out' id="log_out" ></i>
+            <span class="links_name">Log Out</span>
+        </a>
+        <span class="tooltip">Log Out</span>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Dashboard</div>
+
+      <!--Jays Code-->
+      <div class="container">
+        <div class="heading">
+          <p><strong>Hi Dave,</strong> your analytics are all set!</p>
+          <div class="days">
+            <div class="highlight"></div>
+            <ul>
+              <li>Day</li>
+              <li>Week</li>
+              <li>Month</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-cont">
+          <div class="grid-item">
+        <div class="leftPanel">
+            <p id="cScenario">Current Scenario</p>
+            <p id="percentage"><b>46%</b></p>
+            <p id="scText">The current statistics explain the<br>new current form of investment.</p>
+        </div>
+        </div>
+        <div class="grid-item">
+        <div class="rightPanel">
+            <p id="pIndex">Payment Index</p>
+            <p id="amount"><b>$5670.43</b></p>
+            <p id="amountText">Estimated turnover w.r.t<br>Current month cycle</p>
+        </div>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="links">
+        <div class="grid-cont2">
+            <div class="grid-item2">
+                <div class="icon">
+                  <i class='bx bx-line-chart'></i>
+                </div>
+                <div class="titleText">
+                  <p><a href="/home">Analytics</a></p>
+                </div>
+            </div> 
+            
+            
+          <div class="grid-item2">
+            <div class="icon">
+              <i class='bx bx-log-out' id="log_out" ></i>
+            </div>
+            <div class="titleText">
+              <p><a href="/login">Log Out</a></p>
+            </div>
+        </div> 
+        </div>
+      </div>
+  </section>
+  <script src="js/home.js"></script>
+  
+</body>
+</html>
