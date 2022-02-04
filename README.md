@@ -23,10 +23,31 @@ For uniqueness we added a login and register page
 
 
 ### Simple Moving Average (SMA)
+#### How SMA works:
+
 visit: https://school.stockcharts.com/doku.php?id=technical_indicators:moving_averages
 
 ![image](https://user-images.githubusercontent.com/51905418/144582042-ab95dc86-ce1b-4de1-9088-0b9fd0f1a4a2.png)
-
+#### Implementation
+We used a sliding window algorithm with a fixed window size of 5 to calculate the 5 Month SMA as shown below:
+```
+ function simpleMovingAverage(profit, window = 5) {
+    if(!profit || profit.length < window) {
+      return [];
+    }
+    let index = window - 1;
+    const length = profit.length + 1;
+  
+    const simpleMovingAverages = [];
+  
+    while (++index < length) {
+      const windowSlice = profit.slice(index - window, index);
+      const sum = windowSlice.reduce((prev, curr) => prev + curr, 0);
+      simpleMovingAverages.push(sum / window);
+    }
+    return simpleMovingAverages;
+  }
+```
 ## Login Page
 
 ![image](https://user-images.githubusercontent.com/51905418/144582426-bf3d8bfa-e8ff-41b5-b0ad-8391574017c4.png)
