@@ -30,6 +30,8 @@ visit: https://school.stockcharts.com/doku.php?id=technical_indicators:moving_av
 ![image](https://user-images.githubusercontent.com/51905418/144582042-ab95dc86-ce1b-4de1-9088-0b9fd0f1a4a2.png)
 #### Implementation
 We used a sliding window algorithm with a fixed window size of 5 to calculate the 5 Month SMA as shown below:
+
+Time Complexity: O(N)
 ```
  function simpleMovingAverage(profit, window = 5) {
     if(!profit || profit.length < window) {
